@@ -11,4 +11,4 @@ from Attribute attribute, string functionName
 where attribute.getType().hasName("FunctionNameAttribute")
 and functionName = attribute.getArgument(0).getValue()
 and not functionName.regexpMatch("XMas.*")
-select attribute, functionName, "This function name is not XMas compliant"
+select attribute, "This function name is not XMas compliant"
