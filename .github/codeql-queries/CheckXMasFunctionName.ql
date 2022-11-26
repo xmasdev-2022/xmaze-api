@@ -8,6 +8,6 @@
 import csharp
 
 from Attribute attribute
-where attribute.getType().hasName("FunctionName")
-  //  and attribute.getArgument(0).getValue() = "DefaultFunction"
+where attribute.getType().hasName("FunctionNameAttribute")
+and not attribute.getArgument(0).getValue().regexpMatch("XMas")
 select attribute, "This function name is not XMas compliant"
