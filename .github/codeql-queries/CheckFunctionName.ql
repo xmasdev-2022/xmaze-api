@@ -1,3 +1,8 @@
+/**
+ * @name Check Function Name
+ * @kind problem
+ */
+
 import csharp
 
 from BlockStmt b
