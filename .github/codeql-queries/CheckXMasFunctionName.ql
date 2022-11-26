@@ -10,4 +10,4 @@ import csharp
 from Attribute attribute
 where attribute.getType().hasName("FunctionName")
     and attribute.getArgument(0).getValue() = "DefaultFunction"
-select attribute
+select attribute, "This function name is not XMas compliant"
