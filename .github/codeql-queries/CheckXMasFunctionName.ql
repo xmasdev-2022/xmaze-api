@@ -7,7 +7,8 @@
 
 import csharp
 
-from Attribute attribute
+from Attribute attribute, string functionName
 where attribute.getType().hasName("FunctionNameAttribute")
-and not attribute.getArgument(0).getValue().regexpMatch("XMas")
-select attribute, "This function name is not XMas compliant"
+and functionName = attribute.getArgument(0).getValue()
+and not functionName.regexpMatch("XMas.*")
+select attribute, functionName, "This function name is not XMas compliant"
