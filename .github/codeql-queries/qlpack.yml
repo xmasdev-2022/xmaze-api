@@ -1,4 +1,4 @@
-name: xmas/codeql-extra-queries-csharp
+name: codeql-extra-queries-csharp
 version: 0.0.1
 dependencies:
   # This uses the latest version of the codeql/csharp-all library.
