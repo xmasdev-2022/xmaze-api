@@ -2,6 +2,6 @@ name: "CodeQL config"
 
 disable-default-queries: false
 
-queries:
-  - name: xmas-specific CodeQL queries
-    uses: ./.github/codeql-queries/
+# queries:
+#   - name: xmas-specific CodeQL queries
+#     uses: ./.github/codeql-queries/
