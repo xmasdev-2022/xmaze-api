@@ -3,6 +3,12 @@ name: "CodeQL config"
 disable-default-queries: true
 
 queries:
-  - uses: ./.github/codeql-queries/
+  #- uses: ./.github/codeql-queries/ 
+  - uses: xmasdev-2022/codeql-queries/csharp@main
+  
+  
+  
+  
+  
 #   - name: xmas-specific CodeQL queries
 #     uses: ./.github/codeql-queries/
