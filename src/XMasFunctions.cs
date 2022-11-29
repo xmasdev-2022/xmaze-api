@@ -40,7 +40,15 @@ namespace XMazeApi
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
         {
-            log.LogInformation("C# RunXMasTotalPackages");
+            //TODO block to change
+            if(true) 
+            {
+                log.LogInformation("C# RunXMasTotalPackages");
+            }
+            else 
+            {
+
+            }
 
             string name = req.Query["name"];
 
