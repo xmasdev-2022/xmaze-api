@@ -1,6 +1,3 @@
-name: "CodeQL config with XMas custom queries"
+name: "CodeQL config with standard queries"
 
-disable-default-queries: true
-
-queries:
-  - uses: xmasdev-2022/codeql-queries/csharp@main
+disable-default-queries: false
