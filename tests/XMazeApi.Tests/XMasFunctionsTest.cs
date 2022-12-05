@@ -51,4 +51,5 @@ namespace XMazeApi.Tests
             Assert.True(response.GetType() == expectedResult);
         }
     }
+    
 }
