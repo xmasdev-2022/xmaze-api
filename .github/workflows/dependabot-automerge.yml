@@ -1,4 +1,4 @@
-name: Dependabot fetch metadata
+name: Dependabot Auto merge
 on: pull_request
 
 permissions:
