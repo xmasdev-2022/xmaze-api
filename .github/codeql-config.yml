@@ -1,3 +1,5 @@
 name: "CodeQL config with standard queries"
 
+# Query in https://github.com/github/codeql/blob/main/csharp/ql/src/Security%20Features/
+
 disable-default-queries: false
